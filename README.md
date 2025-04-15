@@ -59,7 +59,8 @@ src/
 │   └── command_loader.py  # Loads commands into the tree
 ├── events/
 │   └── on_ready.py        # Loads and syncs commands
-│   └── on_message.py      # Cdoe for on_message event (empty)
+│   └── on_message.py      # Code for on_message event (empty)
+│   └── template.txt       # Copy this when you create new event files
 └── commands/
     ├── ping.py            # Example command (Ping command)
     └── template.txt       # Copy this when you create new command files
